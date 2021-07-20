@@ -2,3 +2,8 @@ name: d9sandbox
 recipe: drupal9
 config:
   webroot: web
+services:
+  appserver:
+    overrides:
+      environment:
+        DRUSH_OPTIONS_URI: 'http://d9sandbox.lndo.site'
