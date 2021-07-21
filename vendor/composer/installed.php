@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'ce36dc5835ac8847d5f4059e8601667e7d71ec4a',
+    'reference' => 'b4d8c59943beb88f3b99fa096ef0dfc4f4be3161',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -272,6 +272,15 @@
       array (
         0 => '9.2.1',
       ),
+    ),
+    'drupal/ckeditor_codemirror' => 
+    array (
+      'pretty_version' => '2.3.0',
+      'version' => '2.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.3',
     ),
     'drupal/claro' => 
     array (
@@ -857,7 +866,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'ce36dc5835ac8847d5f4059e8601667e7d71ec4a',
+      'reference' => 'b4d8c59943beb88f3b99fa096ef0dfc4f4be3161',
     ),
     'drupal/responsive_image' => 
     array (
