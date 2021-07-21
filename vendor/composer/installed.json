@@ -6359,6 +6359,24 @@
             "install-path": "../typo3/phar-stream-wrapper"
         },
         {
+            "name": "w8tcha/ckeditor_codemirror",
+            "version": "v1.17.8",
+            "version_normalized": "1.17.8.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/releases/download/untagged-f790a6bee2e01b538b13/CKEditor-CodeMirror-Plugin.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "ckeditor_codemirror"
+            },
+            "installation-source": "dist",
+            "install-path": "../../web/libraries/ckeditor_codemirror"
+        },
+        {
             "name": "webflo/drupal-finder",
             "version": "1.2.2",
             "version_normalized": "1.2.2.0",

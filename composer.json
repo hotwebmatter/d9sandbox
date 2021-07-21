@@ -69,7 +69,7 @@
         },
         "merge-plugin": {
             "include": [
-              "{DOCROOT}/modules/contrib/ckeditor_codemirror/composer.libraries.json"
+              "web/modules/contrib/ckeditor_codemirror/composer.libraries.json"
             ]
         },
         "drupal-core-project-message": {

@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '7d247a88bb3e8066183edb388345898869d209f0',
+    'reference' => '0db8d27442efd5655cd0b5beeb07c127140ebd4d',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -866,7 +866,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '7d247a88bb3e8066183edb388345898869d209f0',
+      'reference' => '0db8d27442efd5655cd0b5beeb07c127140ebd4d',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1678,6 +1678,15 @@
       array (
       ),
       'reference' => '60131cb573a1e478cfecd34e4ea38e3b31505f75',
+    ),
+    'w8tcha/ckeditor_codemirror' => 
+    array (
+      'pretty_version' => 'v1.17.8',
+      'version' => '1.17.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
     ),
     'webflo/drupal-finder' => 
     array (

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "055c00673bb17aeb8c5f1aaf5f1d93f1",
+    "content-hash": "9bdbec099c128ceb631ca440456b4d1e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6103,6 +6103,21 @@
                 "stream-wrapper"
             ],
             "time": "2020-11-07T09:06:16+00:00"
+        },
+        {
+            "name": "w8tcha/ckeditor_codemirror",
+            "version": "v1.17.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/releases/download/untagged-f790a6bee2e01b538b13/CKEditor-CodeMirror-Plugin.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "ckeditor_codemirror"
+            }
         },
         {
             "name": "webflo/drupal-finder",
