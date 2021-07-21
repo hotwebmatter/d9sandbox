@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b4d8c59943beb88f3b99fa096ef0dfc4f4be3161',
+    'reference' => '7d247a88bb3e8066183edb388345898869d209f0',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -866,7 +866,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b4d8c59943beb88f3b99fa096ef0dfc4f4be3161',
+      'reference' => '7d247a88bb3e8066183edb388345898869d209f0',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1705,6 +1705,15 @@
       array (
       ),
       'reference' => 'd939f7edc24c9a1bb9c0dee5cb05d8e859490725',
+    ),
+    'wikimedia/composer-merge-plugin' => 
+    array (
+      'pretty_version' => 'v2.0.1',
+      'version' => '2.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8ca2ed8ab97c8ebce6b39d9943e9909bb4f18912',
     ),
     'zendframework/zend-diactoros' => 
     array (

@@ -46,6 +46,7 @@ class ComposerStaticInit09803355a4bfb35e8a8d780552a74059
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
+            'Wikimedia\\Composer\\Merge\\V2\\' => 28,
             'Webmozart\\PathUtil\\' => 19,
             'Webmozart\\Assert\\' => 17,
         ),
@@ -165,6 +166,10 @@ class ComposerStaticInit09803355a4bfb35e8a8d780552a74059
     );
 
     public static $prefixDirsPsr4 = array (
+        'Wikimedia\\Composer\\Merge\\V2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src',
+        ),
         'Webmozart\\PathUtil\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/path-util/src',
