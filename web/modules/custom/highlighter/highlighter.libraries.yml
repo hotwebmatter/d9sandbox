@@ -1,0 +1,7 @@
+highlighter.languages:
+  version: VERSION
+  js:
+    js/groovy.min.js: { minified: true }
+    js/yaml.min.js: { minified: true }
+  dependencies:
+    - core/drupal

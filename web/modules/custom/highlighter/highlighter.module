@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Drupal hook implementations.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Messenger\MessengerInterface;
+use Drupal\Core\StringTranslation\StringTranslationTrait;
+use Drupal\Core\StringTranslation\TranslationInterface;
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Add extra languages for CodeSnippet.
+ *
+ * @inheritdoc
+ */
+function highlighter_form_filter_format_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (isset($form['editor']['settings']['subform']['plugins']['codesnippet'])) {
+    $form['editor']['settings']['subform']['plugins']['codesnippet']['highlight_languages']['#options']['yaml'] = 'YAML';
+    $form['editor']['settings']['subform']['plugins']['codesnippet']['highlight_languages']['#options']['groovy'] = 'Groovy';
+    asort($form['editor']['settings']['subform']['plugins']['codesnippet']['highlight_languages']['#options']);
+    // \Drupal::messenger('highlighter')->notice($form['editor']['settings']['subform']['plugins']['codesnippet']);
+  }
+}
