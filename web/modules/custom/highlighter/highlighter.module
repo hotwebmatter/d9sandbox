@@ -19,6 +19,5 @@ function highlighter_form_filter_format_edit_form_alter(&$form, FormStateInterfa
     $form['editor']['settings']['subform']['plugins']['codesnippet']['highlight_languages']['#options']['yaml'] = 'YAML';
     $form['editor']['settings']['subform']['plugins']['codesnippet']['highlight_languages']['#options']['groovy'] = 'Groovy';
     asort($form['editor']['settings']['subform']['plugins']['codesnippet']['highlight_languages']['#options']);
-    \Drupal::messenger('highlighter')->notice($form['editor']['settings']['subform']['plugins']['codesnippet']);
   }
 }
