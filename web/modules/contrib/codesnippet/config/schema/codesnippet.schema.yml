@@ -1,0 +1,13 @@
+ckeditor.plugins.codesnippet:
+  type: mapping
+  label: 'Codesnippet settings'
+  mapping:
+    highlight_style:
+      type: string
+      label: 'highlight.js Style'
+    highlight_languages:
+      type: sequence
+      label: 'Supported Languages'
+      sequence:
+        type: string
+        label: 'Supported Language'
