@@ -70,6 +70,7 @@ settings:
         css: css
         coffeescript: coffeescript
         diff: diff
+        groovy: groovy
         html: html
         http: http
         ini: ini
